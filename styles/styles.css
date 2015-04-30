@@ -1,6 +1,6 @@
 body{
-	 background-image: url('../img/green-fibers.png');
-	 position: relative;
+	background-image: url('../img/green-fibers.png');
+    position: relative;
 }
 header{
 	width: 100%;
@@ -22,6 +22,10 @@ header li{
 	font-size: 30px; 
     position: relative;
     display: inline;
+    color: black;
+}
+header a{
+	text-decoration: none;
 }
 header ul{
 	right: -20%;
@@ -187,3 +191,25 @@ main ul {
 	display: inline;
 	left: 4%;
 }
+.end{
+	height: 200%;
+	width: 100%;
+	padding: 30%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
