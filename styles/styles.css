@@ -1,0 +1,51 @@
+body{
+	 background-image: url('../img/green-fibers.png');
+	 position: relative;
+	 
+}
+header{
+	width: 100%;
+	height: 100%;
+    background-image: url('../img/retina_wood.png');
+	position: relative;
+	padding-top: 10%;
+	padding-bottom: 20%;
+	margin-bottom: 10%;
+	text-align: center;
+
+}
+header h1{
+	font-size: 130px;
+	position: relative;
+	display: inline;
+	padding-top: 100%;
+	
+
+}
+header li{
+	font-size: 30px; 
+   position: relative;
+    display: inline;
+}
+header ul{
+	right: -20%;
+    position: relative;
+
+}
+main ul {
+	list-style-type: none;
+}
+.first{
+/*	background-image: url('gard_img/');
+*/	position: relative;
+	
+}
+.second{
+/*	background-image: url('gard_img/');
+*/	position: relative;
+	
+}
+
+
+.a1{
+    background-image: url('../img/retina_wood.png');
