@@ -11,16 +11,15 @@ header{
 	padding-bottom: 20%;
 	margin-bottom: 10%;
 	text-align: center;
+	position: relative;
 }
 header h1{
 	font-size: 130px;
-	position: relative;
 	display: inline;
 	padding-top: 100%;
 }
 header li{
-	font-size: 30px; 
-    position: relative;
+	font-size: 30px;  
     display: inline;
     color: black;
 }
@@ -29,8 +28,7 @@ header a{
 }
 header ul{
 	right: -20%;
-    position: relative;
-
+	position: relative;
 }
 
 
@@ -38,135 +36,31 @@ header ul{
 main ul {
 	list-style-type: none;
 }
-.first{
+.category{
 /*	background-image: url('gard_img/');
 */	position: relative;
-	
+
 }
-.second{
-/*	background-image: url('gard_img/');
-*/	position: relative;
-	
-}
-
-
-
-.a1{
-    background-image: url('../img/retina_wood.png');
+article{
+	background-image: url('../img/retina_wood.png');
     position: relative;
     padding: 10px;
     text-align: center;
     list-style-type: none;
 }
-.a1 h1{
-	font-size: 170%;
-	
-}
-#a1{
+#a1, #a2, #a3, #a4, #a5, #a6{
 	display: inline;
 	position: center center;
 	list-style-type: none;
 	background-color: pink;
+} 
+ .a1, .a2, .a3, .a4, .a5, .a6 h1{
+ 	font-size: 100%;
 }
+/*.a1, .a2, .a3, .a4, .a5, .a6 p{
+	font-size: 30%;
+}*/
 
-
-
-
-.a2{
-	background-image: url('../img/retina_wood.png');
-	position: relative;
-	padding: 10px;
-	text-align: center;
-	list-style-type: none;
-
-}
-.a2 h1{
-	font-size: 170%;
-}
-#a2{
-    display: inline;
-	position: center center;
-	list-style-type: none;
-	background-color: pink;
-}
-
-
-
-
-.a3{
-    background-image: url('../img/retina_wood.png');
-    position: relative;
-    padding: 10px;
-    text-align: center;
-  
-}
-.a3 h1{
-	font-size: 170%;
-}
-#a3{
-    display: inline;
-	position: center center;
-	list-style-type: none;
-	background-color: pink;
-}
-
-
-
-
-.a4{
-    background-image: url('../img/retina_wood.png');
-    position: relative;
-    padding: 10px;
-    text-align: center;
-}
-.a4 h1{
-	font-size: 170%;
-}
-#a4{
-    display: inline;
-	position: center center;
-	list-style-type: none;
-	background-color: pink;
-}
-
-
-
-
-.a5{
-    background-image: url('../img/retina_wood.png');
-    position: relative;
-    padding: 10px;
-    text-align: center;
-    
-}
-.a5 h1{
-	font-size: 170%;
-}
-#a5{
-    display: inline;
-	position: center center;
-	list-style-type: none;
-	background-color: pink;
-}
-
-
-
-
-.a6{
-    background-image: url('../img/retina_wood.png');
-    position: relative;
-    padding: 10px;
-    text-align: center;
-}
-.a6 h1{
-	font-size: 170%;
-}
-#a6{
-	background-color: pink;
-	display: inline;
-	position: center center;
-	list-style-type: none;
-}
 
 
 .info img{
@@ -175,20 +69,17 @@ main ul {
 	height: 100px;
 	width: 100px;
 }
-.info1{
+.info li {
 	position: relative;
 	display: inline;
-	right: 7%;
-
 }
-.info2{
-	position: relative;
-	display: inline;
+.iconDirt{
+	right: 7%;
+}
+.iconSun{
 	left: -2%;
 }
-.info3{
-	position: relative;
-	display: inline;
+.iconFeed{
 	left: 4%;
 }
 .end{

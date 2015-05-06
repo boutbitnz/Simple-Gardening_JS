@@ -2,23 +2,33 @@
 <html>
 <head>
   <meta charset="utf-8">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+  <script src="js/script.js"></script>
   <link rel="stylesheet" href="styles/styles.css">
 	<title></title>
 </head>
 
 <body>
+
 <!--two tabs wrapped in ul, leaves, the word 'gardening', all wrapeed in header-->
   <header>
+
     <h1>GARDENING</h1>
-    <ul>
-      <a href= ".first"><li>Herbs</li><a href= ".first"></a>
-      <a href= ".second"><li>Vegetables</li></a>
+
+    <ul class= "tabs">
+      <li><a href= "#herbs">Herbs</a></li>
+      <li><a href= "#veggies">Vegetables</a></li>
     </ul>
+
 	</header>
+
+
 	<main>
 <!--six diff sections all wrapped in main. 3 for herbs and 3 for veggies-->
 <!--in each section there is a h1, img block, ul 3* <li>'s ea with <h3> and <p> inside.-->
-    <section class ='first'>
+  <div class= "panes">
+    <div>
+    <section id="herbs" class ='category'>
 <!--all Herb gardening-->
         <article class ='a1'>
          	<h1>
@@ -28,9 +38,9 @@
 <!--all three images. dirt, sun, water.-->
 
           <ul class = 'info'>
-            <a href = '#cilantroDirt'><li class = 'info1'><img src = '../first-js/img/dirt.png'></li></a>
-            <a href = '#cilantroSun '><li class = 'info2'><img src = ' ../first-js/img/sun1.png '></li></a>
-            <a href = '#cilantroFeed'><li class = 'info3'><img src = '../first-js/img/water3.png'></li></a>
+            <a href = '#cilantroDirt'><li class = 'iconDirt'><img src = '../first-js/img/dirt.png'></li></a>
+            <a href = '#cilantroSun '><li class = 'iconSun'><img src = ' ../first-js/img/sun1.png '></li></a>
+            <a href = '#cilantroFeed'><li class = 'iconFeed'><img src = '../first-js/img/water3.png'></li></a>
           </ul>
           <p>
               A Garden With Herbs Provide A Beautiful Fragrance and Abundant 
@@ -87,9 +97,9 @@
 <!--all three images. dirt, sun, water.-->
 
           <ul class = 'info'>
-            <a href = '#dillDirt'><li class = 'info1'><img src = '../first-js/img/dirt.png'></li></a>
-            <a href = '#dillSun '><li class = 'info2'><img src = ' ../first-js/img/sun1.png '></li></a>
-            <a href = '#dillFeed'><li class = 'info3'><img src = '../first-js/img/water3.png'></li></a>
+            <a href = '#dillDirt'><li class = 'iconDirt'><img src = '../first-js/img/dirt.png'></li></a>
+            <a href = '#dillSun '><li class = 'iconSun'><img src = ' ../first-js/img/sun1.png '></li></a>
+            <a href = '#dillFeed'><li class = 'iconFeed'><img src = '../first-js/img/water3.png'></li></a>
           </ul>
           <p>
             A Garden With Herbs Provide A Beautiful Fragrance and Abundant 
@@ -148,9 +158,9 @@
 <!--all three images. dirt, sun, water.-->
 
           <ul class = 'info'>
-            <a href = '#parsleyDirt'><li class = 'info1'><img src = '../first-js/img/dirt.png'></li></a>
-            <a href = '#parsleySun '><li class = 'info2'><img src = ' ../first-js/img/sun1.png '></li></a>
-            <a href = '#parsleyFeed'><li class = 'info3'><img src = '../first-js/img/water3.png'></li></a>
+            <a href = '#parsleyDirt'><li class = 'iconDirt'><img src = '../first-js/img/dirt.png'></li></a>
+            <a href = '#parsleySun '><li class = 'iconSun'><img src = ' ../first-js/img/sun1.png '></li></a>
+            <a href = '#parsleyFeed'><li class = 'iconFeed'><img src = '../first-js/img/water3.png'></li></a>
           </ul>
           <p>
             A Garden With Herbs Provide A Beautiful Fragrance and Abundant 
@@ -204,8 +214,10 @@
         </article>
 <!--end all herb gardening-->
     </section>
-
-    <section class ='second'>
+    </div>
+    
+    <div>
+    <section id="veggies" class ='category'>
 <!--all Veggie gardening-->
         <article class = 'a4'>
          	<h1>
@@ -215,9 +227,9 @@
 <!--all three images. dirt, sun, water.-->
 
           <ul class = 'info'>
-            <a href = '#cabbageDirt'><li class = 'info1'><img src = '../first-js/img/dirt.png'></li></a>
-            <a href = '#cabbageSun '><li class = 'info2'><img src = ' ../first-js/img/sun1.png '></li></a>
-            <a href = '#cabbageFeed'><li class = 'info3'><img src = '../first-js/img/water3.png'></li></a>
+            <a href = '#cabbageDirt'><li class = 'iconDirt'><img src = '../first-js/img/dirt.png'></li></a>
+            <a href = '#cabbageSun '><li class = 'iconSun'><img src = ' ../first-js/img/sun1.png '></li></a>
+            <a href = '#cabbageFeed'><li class = 'iconFeed'><img src = '../first-js/img/water3.png'></li></a>
           </ul>
           <p>
               It's a very good idea to comsider Raised beds when planting 
@@ -275,9 +287,9 @@
 <!--all three images. dirt, sun, water.-->
 
          <ul class = 'info'>
-            <a href = '#cucumberDirt'><li class = 'info1'><img src = '../first-js/img/dirt.png'></li></a>
-            <a href = '#cucumberSun '><li class = 'info2'><img src = ' ../first-js/img/sun1.png '></li></a>
-            <a href = '#cucumberFeed'><li class = 'info3'><img src = '../first-js/img/water3.png'></li></a>
+            <a href = '#cucumberDirt'><li class = 'iconDirt'><img src = '../first-js/img/dirt.png'></li></a>
+            <a href = '#cucumberSun '><li class = 'iconSun'><img src = ' ../first-js/img/sun1.png '></li></a>
+            <a href = '#cucumberFeed'><li class = 'iconFeed'><img src = '../first-js/img/water3.png'></li></a>
           </ul>
           <p>
             It's a very good idea to comsider Raised beds when planting 
@@ -332,9 +344,9 @@
 <!--all three images. dirt, sun, water.-->
 
           <ul class = 'info'>
-            <a href = '#tomatoeDirt'><li class = 'info1'><img src = '../first-js/img/dirt.png'></li></a>
-            <a href = '#tomatoeSun'><li class = 'info2'><img src = ' ../first-js/img/sun1.png '></li></a>
-            <a href = '#tomatoeFeed'><li class = 'info3'><img src = '../first-js/img/water3.png'></li></a>
+            <a href = '#tomatoeDirt'><li class = 'iconDirt'><img src = '../first-js/img/dirt.png'></li></a>
+            <a href = '#tomatoeSun'><li class = 'iconSun'><img src = ' ../first-js/img/sun1.png '></li></a>
+            <a href = '#tomatoeFeed'><li class = 'iconFeed'><img src = '../first-js/img/water3.png'></li></a>
           </ul>
           <p>
 
@@ -381,6 +393,8 @@
         </article>
 <!--end all veggie gardening-->
     </section>
+    </div>
+  </div>
 	</main>
    <section class = 'end'>
    </section>
