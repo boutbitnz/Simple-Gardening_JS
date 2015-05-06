@@ -8,20 +8,22 @@ header{
     background-image: url('../img/retina_wood.png');
 	position: relative;
 	padding-top: 10%;
-	padding-bottom: 20%;
-	margin-bottom: 10%;
+	/*padding-bottom: 20%;
+	margin-bottom: 10%;*/
 	text-align: center;
 	position: relative;
 }
 header h1{
+	color: darkslategray;
 	font-size: 130px;
 	display: inline;
 	padding-top: 100%;
+	padding-right: 28%;
 }
 header li{
 	font-size: 30px;  
     display: inline;
-    color: black;
+    color: darkslategray;;
 }
 header a{
 	text-decoration: none;
@@ -29,6 +31,7 @@ header a{
 header ul{
 	right: -20%;
 	position: relative;
+
 }
 
 
@@ -48,18 +51,6 @@ article{
     text-align: center;
     list-style-type: none;
 }
-#a1, #a2, #a3, #a4, #a5, #a6{
-	display: inline;
-	position: center center;
-	list-style-type: none;
-	background-color: pink;
-} 
- .a1, .a2, .a3, .a4, .a5, .a6 h1{
- 	font-size: 100%;
-}
-/*.a1, .a2, .a3, .a4, .a5, .a6 p{
-	font-size: 30%;
-}*/
 
 
 
@@ -75,12 +66,15 @@ article{
 }
 .iconDirt{
 	right: 7%;
+	-webkit-filter: grayscale(100%);
 }
 .iconSun{
 	left: -2%;
+	-webkit-filter: grayscale(100%);
 }
 .iconFeed{
 	left: 4%;
+	-webkit-filter: grayscale(100%);
 }
 .end{
 	height: 200%;

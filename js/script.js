@@ -1,6 +1,20 @@
 $(document).ready(function() {
-	alert("Welcome to My Gardening");
-	$("#herbs").on("click", function(){
-		$("herbs").append(#herbs);
+	// $(".herb-detail").hide();
+	// $(".veggie-detail").hide();
+
+	$("#veggies").hide();
+	$("#herbs").hide();
+	$("#herbs-button").on("click", function(event){
+		event.preventDefault();
+		$("#herbs").show();
+		$("#veggies").hide();
+
+
+	});
+	$("#veggies-button").on("click", function(event){
+		event.preventDefault();
+		$("#veggies").show();
+		$("#herbs").hide();
+	});
 });
-$("ul.tabs").tabs("div.panes > div");
+
