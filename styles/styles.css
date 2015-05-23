@@ -1,57 +1,118 @@
-body{
-	background-image: url('../img/green-fibers.png');
+body {
+	box-sizing: border-box;
+	background-image: url('../img/retina_wood.png');
+	/*background-image: url('../img/green-fibers.png');*/
     position: relative;
-}
-header{
-	width: 100%;
-	height: 100%;
-    background-image: url('../img/retina_wood.png');
-	position: relative;
-	padding-top: 10%;
-	/*padding-bottom: 20%;
-	margin-bottom: 10%;*/
-	text-align: center;
-	position: relative;
-}
-header h1{
-	color: darkslategray;
-	font-size: 130px;
-	display: inline;
-	padding-top: 100%;
-	padding-right: 28%;
-}
-header li{
-	font-size: 30px;  
-    display: inline;
-    color: darkslategray;;
-}
-header a{
-	text-decoration: none;
-}
-header ul{
-	right: -20%;
-	position: relative;
+    transition: all 0.5s ease-in-out;
+    padding: 5%;
+    text-align: center;
+	font-family: 'Parisienne', cursive;
+	border-image: url("border.png");
 
 }
 
-
+main {
+	padding: 2%;
+	padding: .5%;
+	background-color: rgba(255, 255, 255, .2);
+	border: 1px solid rgba(125, 125, 125, 0.3);
+	border-radius: 0.5em;
+	max-width: 500px;
+	margin: 0 auto;
+}
 
 main ul {
 	list-style-type: none;
 }
-.category{
-/*	background-image: url('gard_img/');
-*/	position: relative;
 
+.panes {
+	padding: 2%;
+	
+	
 }
+
+section #veggies, section #herb {
+	max-width: 800px;
+	padding: 2%;
+	display: inline;
+	margin:0;
+	/*margin: 10%*/
+	/*color: rgba( 295, 295, 295, 0.75);*/
+}
+
 article{
-	background-image: url('../img/retina_wood.png');
-    position: relative;
-    padding: 10px;
+    padding: 2%;
+    margin: 0 2% 0 2%;
     text-align: center;
     list-style-type: none;
 }
 
+
+header{
+	padding: 1.5%;
+}
+header h1{
+	color: black;
+	font-size: 130px;
+	display: inline;
+	text-shadow: 5px 5px 10px darkslategray;
+	/*padding-top: 100%;
+	padding-right: 28%;*/
+}
+
+header li{
+	font-size: 30px;  
+    display: inline;
+    color: darkslategray;
+    right: 20%;
+	position: relative;
+	text-shadow: 5px 5px 10px black;
+
+
+}
+header a{
+	text-decoration: none;
+}
+header ul {
+	/*background-color: rgba(255, 255, 255, .2);
+	border: 1px solid rgba(125, 125, 125, 0.3);
+	border-radius: 0.5em;*/
+	max-width: 400px;
+	margin: 0 auto;
+}
+
+ul {
+	padding: 2%;
+	margin-bottom: 5%;
+	margin-top: 5%;
+
+
+}
+
+.tabs {
+	margin: 0 0 0 auto;
+}
+
+.info p {
+	margin-bottom: .5%;
+}
+
+li {
+	margin-bottom: 10%;
+}
+
+.herb-detail {
+	/*margin: 0 auto;*/
+}
+
+.veggie-detail {
+	/*margin: 0 auto;*/
+}
+
+
+
+.category{
+}
 
 
 .info img{
@@ -76,11 +137,75 @@ article{
 	left: 4%;
 	-webkit-filter: grayscale(100%);
 }
+
+.highlight a {
+	color: darkslategray;
+	opacity: .8;
+	text-decoration: none;
+	text-shadow: 5px 5px 10px black;
+}
+
+
+.highlight a:hover {
+	color: deeppink;
+	opacity: .6;
+}
+
+li a {
+	color: darkslategray;
+	opacity: .8;
+}
+
+li a:hover {
+	color: deeppink;
+	opacity: .6;
+}
+
+h1{
+	margin: 0;
+}
+
+h4 {
+	color: darkslategray;
+	opacity: .8;
+}
+
+h4:hover {
+	color: deeppink;
+	opacity: .6;
+}
+
+p{
+	color: ;
+}
+
+
 .end{
 	height: 200%;
 	width: 100%;
-	padding: 30%;
 }
+
+#cilantroFeed, #dillFeed, #parsleyFeed, #cabbageFeed,
+#cucumberFeed, #tomatoeFeed {
+	margin: 0;
+}
+
+button {
+	background-color: gray;
+	background-position: cover;
+	opacity: .5;
+	position: relative;
+    right: 400px;
+    top: 150%;
+    box-shadow: -2px 7px 10px black;
+}
+
+
+
+
+
+
+
 
 
 

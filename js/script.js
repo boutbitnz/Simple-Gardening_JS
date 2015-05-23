@@ -3,26 +3,59 @@ $(document).ready(function() {
 	$(".veggie-detail").hide();
 	$("#veggies").hide();
 	$("#herbs").hide();
+	$("#home").hide();
+	$("main").hide();
 	
 	$("#herbs-button").on("click", function(event){
-		event.preventDefault();
+		// event.preventDefault();
 		$("#herbs").show();
 		$("#veggies").hide();
+		$("main").show();
 	});
 
 
 	$("#veggies-button").on("click", function(event){
-		event.preventDefault();
+		// event.preventDefault();
 		$("#veggies").show();
 		$("#herbs").hide();
+		$("main").show();
 	});
 
-	$(".cilantro h1").on("click", function(event){
-		event.preventDefault();
-		$(".cilantro-detail").show();
+	// $(".cilantro h1").on("click", function(event){
+	// 	event.preventDefault();
+	// 	$(".herb-detail").hide();
+	// 	$(".veggie-detail").hide();
+	// 	$(".cilantro-detail").show();
+	// });
+
+	$("#herbs article h1").on("click", function(event){
+		// event.preventDefault();
+		$("#header").hide();
+		$(".herb-detail").hide();
+		$(".veggie-detail").hide();
+		$("#home").show();
+		$(this).closest("article").find(".herb-detail").fadeToggle( "slow", "linear");
+		
 	});
+	$("#veggies article h1").on("click", function(event){
+		// event.preventDefault();
+		$("#header").hide();
+		$(".herb-detail").hide();
+		$(".veggie-detail").hide();
+		$(this).closest("article").find(".veggie-detail").fadeToggle( "slow", "linear");
+		$("#home").show();
+	}); 
 
+	$("#home").on( "click", function() {
+		$(".herb-detail").hide();
+		$(".veggie-detail").hide();
+		$("#herbs").hide();
+		$("#veggies").hide();
+		$("#home").hide();
+		$("#header").show();
+		$("main").hide();
 
+	});
 	
 });
 
