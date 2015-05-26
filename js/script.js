@@ -21,13 +21,7 @@ $(document).ready(function() {
 		$("main").show();
 	});
 
-	// $(".cilantro h1").on("click", function(event){
-	// 	event.preventDefault();
-	// 	$(".herb-detail").hide();
-	// 	$(".veggie-detail").hide();
-	// 	$(".cilantro-detail").show();
-	// });
-
+	
 	$("#herbs article h1").on("click", function(event){
 		// event.preventDefault();
 		$("#header").hide();
