@@ -1,14 +1,17 @@
+* { box-sizing: border-box; }
+
 body {
-	box-sizing: border-box;
 	background-image: url('../img/retina_wood.png');
 	/*background-image: url('../img/green-fibers.png');*/
     position: relative;
     transition: all 0.5s ease-in-out;
     padding: 5%;
+    padding-top: 1%;
+    padding-bottom: 0;
     text-align: center;
 	font-family: 'Parisienne', cursive;
-	border-image: url("border.png");
-
+	border: 100px solid transparent;
+	border-image: url('../img/border.png') 100 repeat;
 }
 
 main {
@@ -47,6 +50,7 @@ article{
     list-style-type: none;
 }
 
+header img { width: 100%; }
 
 header{
 	padding: 1.5%;
@@ -211,8 +215,16 @@ button {
     cursor: pointer;
 }
 
-footer p {
-    cursor: auto;
+footer {
+    position: relative;
+    bottom: 0px;
+    width: 100%;
+    margin-top: 100px;
+    margin-bottom: -80px;
+}
+
+p {
+   cursor: auto;
 }
 
 
