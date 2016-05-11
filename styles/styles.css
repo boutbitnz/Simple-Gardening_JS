@@ -3,12 +3,12 @@
 body {
 	background-image: url('../img/retina_wood.png');
 	/*background-image: url('../img/green-fibers.png');*/
-    position: relative;
-    transition: all 0.5s ease-in-out;
-    padding: 5%;
-    padding-top: 1%;
-    padding-bottom: 0;
-    text-align: center;
+  position: relative;
+  transition: all 0.5s ease-in-out;
+  padding: 5%;
+  padding-top: 1%;
+  padding-bottom: 0;
+  text-align: center;
 	font-family: 'Parisienne', cursive;
 	border: 100px solid transparent;
 	border-image: url('../img/border.png') 100 repeat;
@@ -24,15 +24,9 @@ main {
 	margin: 0 auto;
 }
 
-main ul {
-	list-style-type: none;
-}
+main ul {list-style-type: none;}
 
-.panes {
-	padding: 2%;
-	
-	
-}
+.panes {padding: 2%;}
 
 section #veggies, section #herb {
 	max-width: 800px;
@@ -44,18 +38,16 @@ section #veggies, section #herb {
 }
 
 article{
-    padding: 2%;
-    margin: 0 2% 0 2%;
-    text-align: center;
-    list-style-type: none;
+  padding: 2%;
+  margin: 0 2% 0 2%;
+  text-align: center;
+  list-style-type: none;
 }
 
-header img { width: 100%; }
+header img {width: 100%;}
+header {padding: 1.5%;}
 
-header{
-	padding: 1.5%;
-}
-header h1{
+header h1 {
 	color: black;
 	font-size: 130px;
 	display: inline;
@@ -66,26 +58,17 @@ header h1{
 }
 
 header li{
-	font-size: 30px;  
-    display: inline;
-    color: darkslategray;
-    right: 20%;
+	font-size: 30px;
+  display: inline;
+  color: darkslategray;
+  right: 20%;
 	position: relative;
 	text-shadow: 5px 5px 10px black;
 	cursor: pointer;
+}
 
-
-}
-header a{
-	text-decoration: none;
-}
-header ul {
-	/*background-color: rgba(255, 255, 255, .2);
-	border: 1px solid rgba(125, 125, 125, 0.3);
-	border-radius: 0.5em;*/
-	max-width: 400px;
-	margin: 0 auto;
-}
+header a { text-decoration: none;}
+header ul {max-width: 400px; margin: 0 auto;}
 
 ul {
 	padding: 2%;
@@ -94,35 +77,16 @@ ul {
 	cursor: auto;
 }
 
+.tabs { margin: 0 0 0 auto;}
+.info p {margin-bottom: .5%;}
 
-.tabs {
-	margin: 0 0 0 auto;
-}
+li {margin-bottom: 10%; cursor: pointer;}
 
-.info p {
-	margin-bottom: .5%;
-}
+.herb-detail {/*margin: 0 auto;*/}
+.veggie-detail {/*margin: 0 auto;*/}
+.category {}
 
-li {
-	margin-bottom: 10%;
-	cursor: pointer;
-}
-
-.herb-detail {
-	/*margin: 0 auto;*/
-}
-
-.veggie-detail {
-	/*margin: 0 auto;*/
-}
-
-
-
-.category{
-}
-
-
-.info img{
+.info img {
 	display: inline;
 	position: relative;
 	height: 100px;
@@ -133,99 +97,51 @@ li {
 	display: inline;
 	cursor: pointer;
 }
-.iconDirt{
-	right: 7%;
-	-webkit-filter: grayscale(100%);
-}
-.iconSun{
-	left: -2%;
-	-webkit-filter: grayscale(100%);
-}
-.iconFeed{
-	left: 4%;
-	-webkit-filter: grayscale(100%);
-}
+.iconDirt {right: 7%; -webkit-filter: grayscale(100%);}
+.iconSun {left: -2%; -webkit-filter: grayscale(100%);}
+.iconFeed {left: 4%;-webkit-filter: grayscale(100%);}
 
-.highlight a {
-	color: darkslategray;
-	opacity: .8;
-	text-decoration: none;
-	text-shadow: 5px 5px 10px black;
-}
+.highlight a {color: darkslategray; opacity: .8; text-decoration: none; text-shadow: 5px 5px 10px black;}
+.highlight a:hover {color: deeppink; opacity: .6;}
 
+li a {color: darkslategray; opacity: .8; cursor: pointer;}
 
-.highlight a:hover {
-	color: deeppink;
-	opacity: .6;
-}
+li a:hover {color: deeppink; opacity: .6;}
 
-li a {
-	color: darkslategray;
-	opacity: .8;
-	cursor: pointer;
-}
+h1 {margin: 0; cursor: pointer;}
 
-li a:hover {
-	color: deeppink;
-	opacity: .6;
-}
+h4 {color: darkslategray; opacity: .8; cursor: auto;}
 
-h1{
-	margin: 0;
-	cursor: pointer;
-}
+h4:hover {color: deeppink; opacity: .6;}
+
+p {cursor: auto;}
 
 
-h4 {
-	color: darkslategray;
-	opacity: .8;
-	cursor: auto;
-	
-}
-
-h4:hover {
-	color: deeppink;
-	opacity: .6;
-}
-
-p{
-	color: ;
-	cursor: auto;
-}
-
-
-.end{
-	height: 200%;
-	width: 100%;
-}
+.end {height: 200%; width: 100%;}
 
 #cilantroFeed, #dillFeed, #parsleyFeed, #cabbageFeed,
-#cucumberFeed, #tomatoeFeed {
-	margin: 0;
-}
+#cucumberFeed, #tomatoeFeed {margin: 0;}
 
 button {
 	background-color: darkslategray;
 	background-position: cover;
 	opacity: .4;
 	position: relative;
-    right: 400px;
-    top: 150%;
-    box-shadow: -2px 7px 10px black;
-    cursor: pointer;
+  right: 400px;
+  top: 150%;
+  box-shadow: -2px 7px 10px black;
+  cursor: pointer;
 }
 
 footer {
-    position: relative;
-    bottom: 0px;
-    width: 100%;
-    margin-top: 100px;
-    margin-bottom: -80px;
+  position: relative;
+  bottom: 0px;
+  width: 100%;
+  margin-top: 100px;
+  margin-bottom: -80px;
 }
 
-p {
-   cursor: auto;
-}
+p {cursor: auto;}
 
 
 
