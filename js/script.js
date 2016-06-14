@@ -15,7 +15,7 @@ $(document).ready(function() {
 
 	function herbButtonFunc() {
 		// event.preventDefault();
-		console.log(arguments)
+		console.log(arguments);
 		$("#herbs").show();
 		$("#veggies").hide();
 		$("main").show();
@@ -31,6 +31,7 @@ $(document).ready(function() {
 
 	function toggHerbDetailFunc() {
 		// event.preventDefault();
+		console.log(arguments);
 		$("#header").hide();
 		$(".herb-detail").hide();
 		$(".veggie-detail").hide();
@@ -41,6 +42,7 @@ $(document).ready(function() {
 
 	function toggVeggieDetailFunc(){
 		// event.preventDefault();
+		console.log(arguments);
 		$("#header").hide();
 		$(".herb-detail").hide();
 		$(".veggie-detail").hide();
@@ -49,6 +51,7 @@ $(document).ready(function() {
 	}
 
 	function homeButtonFunc() {
+		console.log(arguments);
 		$(".herb-detail").hide();
 		$(".veggie-detail").hide();
 		$("#herbs").hide();
