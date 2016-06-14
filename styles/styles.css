@@ -30,8 +30,8 @@ main ul {
 
 .panes {
 	padding: 2%;
-	
-	
+
+
 }
 
 section #veggies, section #herb {
@@ -66,7 +66,7 @@ header h1{
 }
 
 header li{
-	font-size: 30px;  
+	font-size: 30px;
     display: inline;
     color: darkslategray;
     right: 20%;
@@ -180,7 +180,7 @@ h4 {
 	color: darkslategray;
 	opacity: .8;
 	cursor: auto;
-	
+
 }
 
 h4:hover {
@@ -209,7 +209,7 @@ button {
 	background-position: cover;
 	opacity: .4;
 	position: relative;
-    right: 400px;
+    right: 300px;
     top: 150%;
     box-shadow: -2px 7px 10px black;
     cursor: pointer;
